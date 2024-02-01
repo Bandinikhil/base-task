@@ -1,12 +1,43 @@
 ## dashboardui
 
+### Deployed Link
+
+- [Live-WebApp](https://base-task.netlify.app/)
+
+### Screenshots
 
 
-## Description
 
-- This React application is built using [create-react-app](https://create-react-app.dev/).
-- It uses [Tailwind CSS](https://tailwindcss.com/)
-- The application is generated in JavaScript.
+## Running in dev environment
+
+1.  `cd dashboardui`
+2.  `npm install`
+3.  `npm start`
+
+## Features 
+
+### Basic Authentication
+- Google (Login/Signup)
+- Implement basic authentication using Google for login and signup.
+
+### Email Sign In and Sign Up
+- Include functionality for email sign in and sign up.
+
+### Mobile Responsiveness
+- Ensure the design is mobile responsive as per the Figma design.
+
+### Interactions and Dynamic Elements
+- Pay close attention to the interactions and dynamic elements in the prototype, such as button clicks, - - transitions, hover effects, and data display.
+
+### Task
+- Your task is to develop a front-end application that replicates the design and interactions showcased in the Figma prototype.
+
+### Compatibility
+- Ensure that your implementation is responsive and compatible with major web browsers.
+
+
+
+
 
 ## Pre-requisites
 
@@ -14,11 +45,7 @@
 - [NodeJS](https://nodejs.org/en/) - v16 or greater
 - [npm](https://www.npmjs.com/) - v6 or greater
 
-## Running in dev environment
 
-1.  `cd dashboardui`
-2.  `npm install`
-3.  `npm start`
 
 
 
