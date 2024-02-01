@@ -15,6 +15,15 @@
 
 <br/>
 
+![Screenshot (278)](https://github.com/Bandinikhil/base-task/assets/105233916/eaf14d1c-df93-4d83-9363-480621cf4ae5)
+
+<br/>
+
+![Screenshot (279)](https://github.com/Bandinikhil/base-task/assets/105233916/2a09f964-893e-40f0-bc68-8a564e514866)
+
+<br/>
+
+
 ## Running in dev environment
 
 1.  `cd dashboardui`
