@@ -217,7 +217,6 @@ const UploadPage = () => {
               className={`common-pointer cursor-pointer flex items-center justify-center min-w-[564px] sm:min-w-full rounded-lg ${
                 data ? "opacity-40" : ""
               }`}
-              onClick={handleUplaod}
               leftIcon={
                 <Img
                   className="h-6 mr-2"
@@ -239,7 +238,3 @@ const UploadPage = () => {
 };
 
 export default UploadPage;
-
-
-
-
