@@ -5,8 +5,11 @@
 - [Live-WebApp](https://base-task.netlify.app/)
 
 ### Screenshots
-
-
+<br/>
+![Screenshot (275)](https://github.com/Bandinikhil/base-task/assets/105233916/ccc9c681-415e-483e-a995-212b649dbaac)
+<br/>
+![Screenshot (276)](https://github.com/Bandinikhil/base-task/assets/105233916/892d8ed9-bbee-44c5-9837-d8970ecebcd6)
+<br/>
 
 ## Running in dev environment
 
