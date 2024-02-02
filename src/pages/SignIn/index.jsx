@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Img, Input, Text } from "components";
 import React, { useRef, useState } from "react";
-import { USER_AVATAR } from "../../utils/constants";
 import { checkValidate } from "../../utils/validate";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { signInWithEmailAndPassword } from "firebase/auth";
@@ -80,7 +79,6 @@ const SignInPage = () => {
           console.log(user);
           updateProfile(auth.currentUser, {
             displayName: name.current.value,
-            photoURL: USER_AVATAR,
           })
             .then(() => {
               // Profile updated!
@@ -349,29 +347,6 @@ const SignInPage = () => {
                 </span>
               </Text>
             </div>
-            {/* mob-icons */}
-            {/* <div className="hidden sm:flex sm:mt-2 items-center justify-between w-full">
-                  <img
-                    className="h-11 w-11 bg-[#858585] rounded-full"
-                    src="images/img_user.svg"
-                    alt="user"
-                  />
-                  <Img
-                    className="h-[41px] w-[42px]"
-                    src="images/img_trash.svg"
-                    alt="trash"
-                  />
-                  <Img
-                    className="h-12 w-12"
-                    src="images/img_carbonlogolinkedin.svg"
-                    alt="carbonlogolinke"
-                  />
-                  <Img
-                    className="h-12 w-[50px]"
-                    src="images/img_carbonlogodiscord.svg"
-                    alt="carbonlogodisco"
-                  />
-                </div> */}
           </div>
         </div>
       </div>
